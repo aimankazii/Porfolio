@@ -1,0 +1,222 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.icons, .icons1 , .icons2{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+}
+.icons i , .icons1 i , .icons2 i   {
+    margin: 10px;
+    padding-left: 30px;
+    color: rgb(110, 127, 187);
+    cursor: pointer;
+}
+.icons1 a , .icons a , .icons2 a{
+    margin: 10px;
+}
+.icons i:hover{
+    color: rgb(43, 98, 226);
+}
+.icons1 i:hover{
+    color: rgb(43, 55, 226);
+}
+.icons2 i:hover{
+    color: rgb(43, 64, 226);
+}
+img{
+    height: 350px;
+    width: 350px;
+   
+}
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    line-height: 5px;
+}
+.profile p{
+    width: 400px;
+    line-height: 20px;
+    color: rgb(128, 128, 128);
+}
+.profile h3{
+    color: gray;
+}
+.profile h2 span{
+    color: rgb(43, 226, 174);
+}
+button{
+    padding: 5px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid rgb(43, 217, 226) ;
+    cursor: pointer;
+    background-color: white;
+    font-size: 0.7rem;
+}
+button:hover{
+    background-color: rgb(43, 183, 226);
+    color: white;
+}
+.main1 h1{
+    text-align: center;
+}
+.main1 span{
+    color: rgb(43, 186, 226);
+
+}
+.about h4 {
+    margin: 50px 0px 0px 130px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+.info p {
+    color: gray;
+}
+.info span{
+    color: rgb(43, 195, 226);
+    font-weight: bold;
+}
+.tools{
+    margin-top: 50px;
+}
+.tools h1{
+    color: rgb(43, 180, 226);
+}
+.tools span{
+    color: black;
+}
+.logo , .logo4{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo img , .logo4 img {
+    height: 50px;
+    width: 50px;
+}
+.icons1{
+    height: 89%;
+}
+ h1{
+    text-align: center;
+}
+.main2{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 50px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+ h1 span {
+color: rgb(43, 226, 192);
+}
+.input{
+display: flex;
+margin-left: 50px;
+margin-top: 50px;
+
+}
+input{
+    border: 1px solid rgb(43, 198, 226);
+   
+}
+.input input{
+    border-radius: 50px;
+    border: 1px solid rgb(43, 186, 226);
+    font-size: 0.5rem;
+    padding: 10px;
+   margin: 10px;
+}
+
+.msg1{
+    margin-left: -80px;
+    display: block;
+    width: 100%;
+   margin-top: -60px;
+    /* justify-content: center; */
+}
+textarea{
+    border-radius: 10px;
+    border: 1px solid rgb(43, 198, 226);
+    /* margin-top: 5px; */
+    margin-left: 69px;
+}
+.mail,.call{
+    display: flex;
+    gap: 5px;
+}
+.contact{
+    margin-left: 20px;
+}
+.mail-info p , .call-info p {
+    font-size: 0.8rem;
+}
+.mail-info h4 , .call-info h4{
+    font-size: 0.8rem;
+    color: rgb(43, 202, 226);
+}
+.sc-icons{
+    display: flex;
+    /* justify-content: space-evenly; */
+    gap: 15px;
+    margin: 20px 0px 0px 5px;
+    color: rgb(150, 110, 187);
+    cursor: pointer;
+}
+.sc-icons a:hover{
+    color: rgb(43, 192, 226);
+}
+
+.mail-info  , .call-info {
+    line-height: 1px;
+}
+.call-icon .mail-icon{
+    display: flex;
+    align-items: center;
+}
+.call-icon i, .mail-icon i{
+    color: rgb(43, 177, 226);
+
+}
+.icons2{
+    height: 90%;
+}
+.main2{
+    overflow: hidden;
+}
+.btn button{
+    width: 140px;
+    margin-left: 70px;
+    margin-top: 5px;
+    background-color: rgb(43, 192, 226);
+    color: white;
+}
+.btn button:hover{
+    background-color: white;
+    color: black;
+}
+
+/* media query */
+/* home page */
+@media(max-width:670px){
+    .icons a  {
+        display: flex;
+
+    }
+}
